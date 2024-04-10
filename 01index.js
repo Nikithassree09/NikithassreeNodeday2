@@ -1,3 +1,5 @@
+const mongoose=require('mongoose')
+mongoose.connect('mongodb://127.0.0.1:27017/newmongoosefsdwd56')
 const express=require('express')
 const HallBook=require('./model/createroom')
 const BookRoom=require('./model/bookroom')
